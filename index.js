@@ -1,5 +1,5 @@
 function isTesting(string) {
-    return string === "TestingV2"
+    return string === "TestingV3"
   }
   
 export default isTesting;
