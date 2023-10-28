@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Get the version as an argument
-version=$1
+version='3.0.0'
 
 # Update package.json version
 npm version $version
