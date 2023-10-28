@@ -1,10 +1,52 @@
-# test_npm_auto_publish
-This repository it to practice how to make the latest version of an npm package its default when downloaded by someone.
 
-I want to be able to let hte user download the latest version automatically on github. This should happen whenver i 
-add a tag of vsth then it should be triggered.
+# Image-CLI-Tool 
+An npm package to manipulate images using terminal.
 
-I will add a tag to a commit 
-then the commit should be marked as latest automaticalyy if tag starts from "v*".
-then the latest commit should be published to npm registry as latest such that when people donwload it they get hte 
-latest by default.
+# Installation
+
+To install the image-cli-tool globally, use the following command:
+```bash
+npm install -g image-cli-tool
+```
+
+# Features of the image-cli-tool
+
+- Compress an image
+- Convert an image to another format
+- Get image information
+- Rotate Image by a specified angle
+
+# Commands
+
+# Image Compression
+
+- `img-cli compress <input_file>`
+- **Example:**
+```bash
+img-cli compress myimage.jpg
+```
+
+# Image Conversion
+
+- `img-cli convert <input_file.extension> <output_file.extension>`
+- **Example:**
+```bash
+img-cli convert myimage.jpg myimage.png
+```
+
+# Get Image Information
+
+- `img-cli info <input_file>`
+- **Example:**
+```bash
+img-cli info myimage.jpg
+```
+ # Rotate an Image 
+ - `img-cli rotate <input_file> <rotate_angle>`
+ - **Example:**
+ ```bash
+ img-cli rotate myimage.jpg 90
+ ```
+
+# Contribute
+Feel free to explore and contribute to the image-cli-tool! If you have any improvements or additional features inmind, open an issue or submit a pull request. I would be happy to merge🙂
